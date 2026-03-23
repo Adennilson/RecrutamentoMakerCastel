@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Afiliados | MakerCastel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="badge">Ganhe por Indicação</div>
+        <h1>Afiliados <br><span>Maker Castel</span></h1>
+        <p>Compartilhe nossas maquiagens e cosméticos em suas redes sociais e receba comissões por cada venda realizada.</p>
+    </header>
+
+    <main class="container">
+        
+        <section class="card">
+            <h2>Como você lucra?</h2>
+            <p>É muito simples: você acessa nosso aplicativo, escolhe os produtos que mais gosta e gera seus links de divulgação.</p>
+            
+            <div class="features">
+                <div class="f-item">
+                    <span class="f-icon">🔗</span>
+                    <div class="f-txt">
+                        <strong>Divulgue seus Links</strong>
+                        <p>Poste nos seus Stories, grupos de WhatsApp ou Bio do Instagram.</p>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <span class="f-icon">💰</span>
+                    <div class="f-txt">
+                        <strong>Receba por Venda</strong>
+                        <p>Cada vez que alguém comprar pelo seu link, você é compensado.</p>
+                    </div>
+                </div>
+                <div class="f-item">
+                    <span class="f-icon">💄</span>
+                    <div class="f-txt">
+                        <strong>Maquiagens em Alta</strong>
+                        <p>Trabalhe com produtos de beleza que todo mundo quer comprar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>O que você precisa?</h2>
+            <ul class="list">
+                <li>✅ Ter uma conta ativa nas redes sociais.</li>
+                <li>✅ Vontade de divulgar e acompanhar suas vendas.</li>
+                <li>✅ Não precisa de experiência, só começar.</li>
+                <li>✅ Chave PIX para receber suas compensações.</li>
+            </ul>
+        </section>
+
+        <section class="form-card" id="registro">
+            <div class="form-header">
+                <h2>Solicitar Acesso</h2>
+                <p>Preencha os dados abaixo. Se o seu perfil for aprovado, entramos em contato com você pelo WhatsApp.</p>
+            </div>
+
+            <form id="afiliadoForm">
+                <div class="input-box">
+                    <label>Nome Completo</label>
+                    <input type="text" id="nome" required placeholder="Seu nome">
+                </div>
+
+                <div class="input-box">
+                    <label>WhatsApp</label>
+                    <input type="tel" id="whatsapp" required placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="input-box">
+                    <label>E-mail</label>
+                    <input type="email" id="email" required placeholder="seu@email.com">
+                </div>
+
+                <div class="input-box">
+                    <label>Seu Instagram ou Rede Social</label>
+                    <input type="text" id="instagram" required placeholder="@seu_perfil">
+                </div>
+
+                <div class="input-box">
+                    <label>Chave PIX (Para receber suas vendas)</label>
+                    <input type="text" id="pix" required placeholder="Sua chave PIX">
+                </div>
+
+                <button type="submit" id="btnAcao">QUERO DIVULGAR</button>
+            </form>
+
+            <div id="msgSucesso" class="hidden">
+                <div class="icon-ok">✨</div>
+                <h3>Solicitação Enviada!</h3>
+                <p>Recebemos seus dados. Se aprovado, entraremos em contato para te passar seus links de divulgação.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        MakerCastel &copy; 2026 | Sistema de Afiliados
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
